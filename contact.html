@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+    .shivani{
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background: #eff4fd;
+    }
+    nav{
+      display: flex;
+      width: 84%;
+      margin: auto;
+      padding: 20px 0;
+      align-items: center;
+      justify-content: space-between;
+    } 
+    nav ul li{
+      display: inline-block;
+      list-style: none;
+      margin: 10px 20px;
+    }
+    nav ul li a{
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }  
+    nav ul li a:hover{
+      color: brown;
+    }
+    li:hover{
+      transform: scale(1.1);
+    }
+    .contact{
+      position: fixed;
+      top: 7%;
+      left: 450px;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .contact-info{
+      display: flex;
+      width: 100%;
+      max-width: 1200px;
+      align-items: center;
+      justify-content: center;
+      padding: 0 20px;
+    }
+    .card{
+      background: black;
+      padding: 0 20px;
+      margin: 0 10px;
+      width: 150px;
+      height: 200px;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color:white;
+    }
+    .card-icon{
+      font-size:28px;
+      background-color: red;
+      width:60px;
+      height: 60px;
+      text-align: center;
+      line-height: 60px;
+      border-radius: 50%;
+    }
+    </style>
+</head>
+<body>
+  <div class="shivani">
+    <nav>
+        <img src="images/name.png" class="logo">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="contact">
+     <div class="contact-info">
+       <div class="card">
+        <i class="card-icon far fa-envelope"></i>
+        <p>email@domain.com</p>
+     </div>  
+     <div class="card">
+      <i class="card-icon fas fa-phone"></i>
+      <p>+0000000000</p>
+     </div>
+     <div class="card">
+      <i class="card-icon fas fa-map-marker-alt"></i>
+      <p>xxxxxxxx</p>
+    </div>
+   </div>
+  </div>
+  </div>
+</body>
+</html>
